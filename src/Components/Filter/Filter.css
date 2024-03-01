@@ -1,0 +1,124 @@
+
+h3,h4,h5{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700 !important;
+}
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600 !important;
+}
+.blue{
+  background-color: #53ACFF;  
+width: 118px;
+
+
+border: 1px solid #202020;
+color: #202020;
+}
+
+  .filt{
+    color: #979797 ;
+  }
+  #last span {
+   
+    background: linear-gradient(360deg, #FFFFFF -72%, #202020 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5); /* Adjust the shadow as needed */
+  }
+  
+  
+
+.but{
+   color: white !important; 
+   background-color:#53ACFF  !important;
+   font-weight: 700 !important;
+}
+.bgg{
+color: white;
+background-color:#53ACFF ;
+transform: scale(1.1);
+}
+.Color{
+    background-color: #202020;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400 ;
+}
+ .Color .brdr2{
+  position: relative;
+ }
+ .Color .brdr2::after{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 2px;
+  height: 125px;
+  background-color:white;
+  border-radius: 2px;
+ }
+ .Color .brdr1{
+  position: relative;
+ }
+ .Color .brdr1::after{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 1px;
+  height: 153px;
+  background-color:white;
+  border-radius: 2px;
+ }
+ .Color .brdr1 div:hover{
+  background-color: #53ACFF;
+  color: black;
+  border-radius: 5px;
+  width: fit-content;
+ }
+ .Color .brdr2 div:hover{
+  background-color: #53ACFF;
+  color: black;
+  border-radius: 5px;
+  width: fit-content;
+  height: fit-content;
+ }
+ .vibrate {
+  transition: transform 0.1s ease-in-out;
+  animation: vibrate 0.1s ease-in-out;
+}
+
+@keyframes vibrate {
+  0% { transform: translate(0); }
+  25% { transform: translate(-2px, -2px); }
+  50% { transform: translate(2px, 2px); }
+  75% { transform: translate(-2px, -2px); }
+  100% { transform: translate(2px, 2px); }
+}
+
+
+.include{
+    background: #202020; 
+    width: 335px;
+    height: 50px;
+    border-radius: 5px;
+}
+.search{
+color: #6B6B6B;
+}
+.ticket{
+  
+color: #737373;  
+}
+.div{
+    width: 300px;
+height: 27px;
+border-radius: 5px;
+background: #313131;
+}
+
+
+

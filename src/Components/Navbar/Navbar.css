@@ -1,0 +1,114 @@
+
+.sidebar {
+  position: fixed;
+  padding: 0;
+  top: 0;
+  left: 0;
+  width: 70px; 
+  height: 100%;
+  background-color: #181818;
+  margin-left: 25px;
+  list-style: none;
+  transition: all 0.1s ;
+  z-index: 5;
+ 
+}
+
+.sidebar .logo-menu {
+  width: 100%;
+  transition: all 0.1s;
+}
+
+.sidebar .list {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 0;
+}
+
+.sidebar .list .list-item {
+  width: 100%;
+  height: 100%;
+  margin: 5px;
+  line-height: 50px;
+ text-align: center;
+ 
+}
+.sidebar .list .lista{
+  position: relative;
+  transition: all 0.3s;
+}
+.sidebar .list .lista:hover::after{
+  content: "Coming Soon";
+  position: absolute;
+  width: 90%;
+  height: 35px;
+  background-color: #53acffb0;
+  border-radius: 3px;
+  text-align: center;
+
+  top: 0;
+  left: 5%;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 15px;
+  color: white;
+  backdrop-filter: blur(1px);
+}
+.sidebar .list .list-item a span {
+  display: none;
+  transition: all 0.1;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+ 
+}
+.sidebar .person p{
+  display: none;
+  transition: all 0.1;
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 15px;
+}
+.sidebar .person .cor-gray{
+  color: #5D5D5D;
+}
+.sidebar .list .list-item a {
+  color: white;
+ 
+}
+.sidebar:hover .person p{
+  display: block;
+  padding-left: 10px;
+}
+.sidebar .list .list-item .cor-gray{
+  color: #5D5D5D;
+}
+.sidebar .list .list-item a:hover{
+
+  color:#53ACFF ;
+}
+
+
+.sidebar:hover {
+  width: 170px;
+
+
+}
+.sidebar:hover .list .list-item a span,
+.sidebar:hover .list .list-item
+ {
+  display: inline-block;
+  text-align: left;
+  line-height: 30px;
+  padding-left: 10px;
+  top: 0;
+}
+.sidebar:hover .logo-menu img{
+width: 130px;
+padding-left: 15px;
+}
+.sidebar .list .list-item a i{
+font-size: 25px;
+
+}
